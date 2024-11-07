@@ -1,0 +1,21 @@
+body {
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    background-color: #7c9dba; 
+}
+
+#botonEscurridizo {
+    padding: 10px 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#fechaHora {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}

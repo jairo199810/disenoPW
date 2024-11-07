@@ -1,0 +1,42 @@
+body {
+    overflow: hidden;
+    color: blue;
+}
+
+.cara {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    border-radius: 50%;
+    background-color: #c4c095;
+}
+
+.ojo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    top: 60px;
+}
+
+#ojoIzquierdo { left: 50px; }
+#ojoDerecho { right: 50px; }
+
+.pupila {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(44, 113, 30);
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#fechaHora {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}
