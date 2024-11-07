@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="StyleSheet" href="style.css">
+</head>
+<body>
+
+    <h1>Eventos de la caja y botón</h1>
+    <hr>
+    <input type="text" id="caja1" placeholder="Escribe algo..">
+    <input type="text" id="caja2" placeholder="Escribe algo..">
+    <button onclick="mostrar()" >Mostrar mensaje</button>
+
+    <script>
+
+        function mostrar(){
+            var texto = document.getElementById('caja1').value;
+           // alert('Hola '+ texto+ ' desde JavaScript');
+           document.getElementById('caja2').value='Texto copiado: '+texto;
+        }
+
+    </script>
+    
+</body>
+</html>
